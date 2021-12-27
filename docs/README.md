@@ -4,6 +4,9 @@ docker-compose up -d contact-center
 
 docker-compose ps
 docker-compose logs -f contact-center
+
+docker-compose down
+docker-compose restart
 ```
 
 ```
