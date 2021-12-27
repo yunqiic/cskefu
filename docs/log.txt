@@ -1,0 +1,13 @@
+docker-compose pull
+Pulling activemq       ... done
+Pulling mysql          ... done
+Pulling redis          ... done
+Pulling elasticsearch  ... done
+Pulling contact-center ... done
+Pulling nginx          ... done
+
+ocker images|grep chatopera
+chatopera/contact-center                                                      develop                  8b31af57cfca        6 days ago          614MB
+chatopera/mysql                                                               5.7                      738e7101490b        3 weeks ago         448MB
+chatopera/redis                                                               5.0.5                    78eed2b0e997        2 years ago         95.1MB
+chatopera/activemq                                                            5.14.3                   ab2a33f6de2b        4 years ago         422MB
