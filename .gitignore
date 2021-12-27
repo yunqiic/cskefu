@@ -16,10 +16,11 @@ sftp-config.json
 ~$*.ppt*
 ~$*.doc*
 backups/
-.env
 build.gradle
 .vscode/
 nohup.out
 docker-compose.dev.yml
 docker-compose.custom.yml
 private
+
+.env
