@@ -18,7 +18,7 @@
 
 ## 开源许可协议
 
-Copyright (2018-2019) <a href="https://www.chatopera.com/" target="_blank">北京华夏春松科技有限公司</a>
+Copyright (2018-2019) <a href="https://www.chatopera.com/" target="_blank">铁塔能源有限公司北京市分公司</a>
 
 [Apache License Version 2.0](https://github.com/chatopera/cosin/blob/master/LICENSE)
 

@@ -6,7 +6,7 @@
 
 ==================== Powered by Chatopera Inc. =================
 铁塔客服: 越是重视客户服务，越是好的企业 v${git.build.version} build ${git.commit.id.abbrev}
-版权所有 © 北京华夏春松科技有限公司️ https://www.chatopera.com/
+版权所有 © 铁塔能源有限公司北京市分公司️ https://www.chatopera.com/
 商业许可授权联系商务顾问 https://dwz.chatopera.com/A51h6m
 铁塔客服博客专栏 https://blog.chatopera.com/
 

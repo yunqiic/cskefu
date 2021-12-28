@@ -486,7 +486,7 @@ Chatopera 机器人平台包括知识库、多轮对话、意图识别和语音�
 
 ## 开源许可协议
 
-Copyright (2018-2021) <a href="https://www.chatopera.com/" target="_blank">北京华夏春松科技有限公司</a>
+Copyright (2018-2021) <a href="https://www.chatopera.com/" target="_blank">铁塔能源有限公司北京市分公司</a>
 
 [Apache License Version 2.0](https://github.com/chatopera/cskefu/blob/osc/LICENSE)
 
