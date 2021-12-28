@@ -1167,6 +1167,8 @@ function url(uri, loc){
   // define href
   obj.href = obj.protocol + '://' + host + (loc && loc.port == obj.port ? '' : (':' + obj.port));
 
+  console.log(obj);
+
   return obj;
 }
 
@@ -2140,6 +2142,7 @@ function Socket(uri, opts){
   this.port = opts.port || (global.location && location.port ?
        location.port :
        (this.secure ? 443 : 80));
+  console.log(this);
   this.query = opts.query || {};
   if ('string' == typeof this.query) this.query = parseqs.decode(this.query);
   this.upgrade = false !== opts.upgrade;
@@ -4199,6 +4202,9 @@ WS.prototype.uri = function() {
   }
 
   var ipv6 = this.hostname.indexOf(':') !== -1;
+
+  console.log(schema + '://' + (ipv6 ? '[' + this.hostname + ']' : this.hostname) + port + this.path + query);
+
   return schema + '://' + (ipv6 ? '[' + this.hostname + ']' : this.hostname) + port + this.path + query;
 };
 
