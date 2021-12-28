@@ -202,7 +202,7 @@ html
                             div(style="padding:0px 5px 10px 5px;border-bottom:1px solid #dedede;")
                                 a#point_ad_text(href=welcomeAd.url, title=welcomeAd.tiptext, target="_blank")= welcomeAd.content
             .clearfix.message.welcome
-                span#welcome-message= inviteData.dialog_message ? inviteData.dialog_message : '欢迎您来咨询！欢迎使用铁塔客服！如需帮助请联系 info@chatopera.com'
+                span#welcome-message= inviteData.dialog_message ? inviteData.dialog_message : '欢迎您来咨询！欢迎使用铁塔客服！如需帮助请联系 chinatower@7otech.com'
             for chatMessage in pugHelper.reverse(chatMessageList.content)
                 if chatMessage.userid && userid && chatMessage.calltype && chatMessage.calltype == "呼入"
                     .clearfix.chat-block
