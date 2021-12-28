@@ -11,3 +11,18 @@ chatopera/contact-center                                                      de
 chatopera/mysql                                                               5.7                      738e7101490b        3 weeks ago         448MB
 chatopera/redis                                                               5.0.5                    78eed2b0e997        2 years ago         95.1MB
 chatopera/activemq                                                            5.14.3                   ab2a33f6de2b        4 years ago         422MB
+
+./build.sh
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:48 min
+[INFO] Finished at: 2021-12-28T11:08:08+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project contact-center: Could not resolve dependencies for project com.chatopera.cc:contact-center:war:7.0.0-SNAPSHOT: The following artifacts could not be resolved: de.neuland-bfi:spring-pug4j:jar:2.0.0-alpha-4-SNAPSHOT, mondrian:mondrian:jar:3.7.0, com.chatopera.compose4j:compose4j:jar:1.0.0, com.chatopera.bot:sdk:jar:3.5.0: Could not find artifact de.neuland-bfi:spring-pug4j:jar:2.0.0-alpha-4-SNAPSHOT in alimaven (https://maven.aliyun.com/nexus/content/groups/public/) -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
