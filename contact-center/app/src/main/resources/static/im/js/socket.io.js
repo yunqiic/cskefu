@@ -1119,6 +1119,8 @@ module.exports = url;
 function url(uri, loc){
   var obj = uri;
 
+  console.log(uri);
+
   // default to window.location
   var loc = loc || global.location;
   if (null == uri) uri = loc.protocol + '//' + loc.host;
@@ -1155,6 +1157,9 @@ function url(uri, loc){
     else if (/^(http|ws)s$/.test(obj.protocol)) {
       obj.port = '443';
     }
+  }
+  if(obj.href.indexOf("https") === 0) {
+    obj.port = '443';
   }
 
   obj.path = obj.path || '/';
