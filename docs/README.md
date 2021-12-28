@@ -41,7 +41,7 @@ mvn -DskipTests clean package
 
 cd contact-center/admin/
 ./build.sh
-cd ..
+cd ../..
 docker-compose up -d contact-center
 ```
 
