@@ -4170,7 +4170,7 @@ WS.prototype.doClose = function(){
  * @api private
  */
 
-WS.prototype.uri = function(){
+WS.prototype.uri = function() {
   var query = this.query || {};
   var schema = this.secure ? 'wss' : 'ws';
   var port = '';
