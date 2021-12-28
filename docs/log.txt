@@ -26,3 +26,7 @@ chatopera/activemq                                                            5.
 [ERROR]
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+
+https://kefu.suomitek.com/im/js/socket.io.js
+
+inspector.js:44 GET https://kefu.suomitek.com:8036/socket.io/?userid=4028cac3614cd2f901614cf8be1f0324&orgi=cskefu&EIO=3&transport=polling&t=Nt_u9Ij net::ERR_CONNECTION_TIMED_OUT
