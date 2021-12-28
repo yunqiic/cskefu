@@ -38,6 +38,11 @@ docker-compose down
 docker-compose restart
 
 mvn -DskipTests clean package
+
+cd contact-center/admin/
+./build.sh
+cd ..
+docker-compose up -d contact-center
 ```
 
 ```
