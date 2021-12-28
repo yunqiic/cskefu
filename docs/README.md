@@ -7,6 +7,8 @@ docker-compose logs -f contact-center
 
 docker-compose down
 docker-compose restart
+
+mvn -DskipTests clean package
 ```
 
 ```
