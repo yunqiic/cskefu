@@ -1,4 +1,33 @@
 ```shell
+sudo docker-compose build
+sudo docker-compose down
+sudo docker-compose up
+sudo docker-compose up -d
+
+sudo docker-compose up -d activemq
+sudo docker-compose stop activemq
+sudo docker-compose rm activemq
+
+sudo docker-compose up -d mysql
+sudo docker-compose stop mysql
+sudo docker-compose rm mysql
+
+sudo docker-compose up -d redis
+sudo docker-compose stop redis
+sudo docker-compose rm redis
+
+sudo docker-compose up -d elasticsearch
+sudo docker-compose stop elasticsearch
+sudo docker-compose rm elasticsearch
+
+sudo docker-compose up -d contact-center
+sudo docker-compose stop contact-center
+sudo docker-compose rm contact-center
+
+sudo docker-compose up -d nginx
+sudo docker-compose stop nginx
+sudo docker-compose rm nginx
+
 docker-compose pull
 docker-compose up -d contact-center
 
