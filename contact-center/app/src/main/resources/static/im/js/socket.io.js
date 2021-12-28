@@ -1158,7 +1158,7 @@ function url(uri, loc){
       obj.port = '443';
     }
   }
-  if(obj.href.indexOf("https") === 0) {
+  if(location.href.indexOf("https") === 0) {
     obj.port = '443';
   }
 
