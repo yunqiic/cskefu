@@ -39,6 +39,7 @@ docker-compose restart
 
 mvn -DskipTests clean package
 
+sudo -u bj git pull
 cd contact-center/admin/
 ./build.sh
 cd ../..

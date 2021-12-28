@@ -2147,6 +2147,9 @@ function Socket(uri, opts){
   this.port = opts.port || (global.location && location.port ?
        location.port :
        (this.secure ? 443 : 80));
+  if(location.href.indexOf("https") === 0) {
+    this.port = '443';
+  }
   console.log(this);
   this.query = opts.query || {};
   if ('string' == typeof this.query) this.query = parseqs.decode(this.query);
