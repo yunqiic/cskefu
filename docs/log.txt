@@ -32,3 +32,13 @@ https://kefu.suomitek.com/im/js/socket.io.js
 inspector.js:44 GET https://kefu.suomitek.com:8036/socket.io/?userid=4028cac3614cd2f901614cf8be1f0324&orgi=cskefu&EIO=3&transport=polling&t=Nt_u9Ij net::ERR_CONNECTION_TIMED_OUT
 
 https://kefu.suomitek.com:8036/socket.io/?userid=4028cac3614cd2f901614cf8be1f0324&orgi=cskefu&EIO=3&transport=polling&t=Nt_xDjI
+
+满意度统计
+Tue Dec 28 17:44:47 CST 2021
+There was an unexpected error (type=Internal Server Error, status=500).
+Mondrian Error:Internal error: Error while executing query [select [comment].[满意度].Members ON COLUMNS, NonEmptyCrossJoin([time].[日期].Members, NonEmptyCrossJoin([skill].[技能组].Members, [agent].[坐席].Members)) ON ROWS from [满意度] ]
+
+客服坐席
+Tue Dec 28 17:46:05 CST 2021
+There was an unexpected error (type=Internal Server Error, status=500).
+Mondrian Error:Internal error: Error while executing query [select {[Measures].[咨询数量], [Measures].[平均等待时长（秒）], [Measures].[平均咨询时长（秒）]} ON COLUMNS, NonEmptyCrossJoin([time].[日期].Members, NonEmptyCrossJoin([skill].[技能组].Members, [agent].[坐席].Members)) ON ROWS from [咨询] ]
