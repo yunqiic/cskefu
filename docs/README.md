@@ -43,6 +43,8 @@ cd contact-center/admin/
 ./build.sh
 cd ../..
 docker-compose up -d contact-center
+
+docker rmi `docker images|grep none |  awk '{print $3}'`
 ```
 
 ```
