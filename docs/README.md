@@ -45,6 +45,9 @@ cd contact-center/admin/
 cd ../..
 docker-compose up -d contact-center
 
+cd /home/bj/git/cskefu/public/plugins/chatbot
+./scripts/install.sh
+
 docker rmi `docker images|grep none |  awk '{print $3}'`
 ```
 
