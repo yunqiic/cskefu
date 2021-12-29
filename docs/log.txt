@@ -55,3 +55,17 @@ cd /home/bj/git/cskefu/public/plugins/chatbot
 [note] remember to ignore src/main/resources/templates/admin/system/chatbot in contact-center/app/.gitignore
 [plugin] install done.
 
+redis-cli
+auth 123456
+select 2
+keys *
+1) "cskefu:session:config:list"
+2) "cskefu:consultinvite"
+3) "cskefu:agent:user:inquene"
+4) "cskefu:audit:customerchats"
+5) "cskefu:sysdic"
+6) "cskefu:system"
+7) "cskefu:agent:status:ready"
+8) "cskefu:user:session"
+9) "cskefu:4028a0866f9403f1016f9405a05d000e:session:config"
+
